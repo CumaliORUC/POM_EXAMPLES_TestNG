@@ -12,7 +12,6 @@ public class FacebookLoginPage {
         this.driver=driver;
         PageFactory.initElements(driver,this);
     }
-
     @FindBy (css="#email")
     public WebElement email;
 

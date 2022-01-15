@@ -15,7 +15,6 @@ public class FacebookLoginTest extends TestBase {
             facebookLoginPage.email.sendKeys(faker.internet().emailAddress());
             facebookLoginPage.password.sendKeys(faker.internet().password());
             facebookLoginPage.loginButton.click();
-
     }
 
 }
